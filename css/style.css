@@ -121,7 +121,12 @@ body {
 /* Pelayanan Section*/
 
 #pelayanan {
+    /* background: linear-gradient(80deg, var(--pr-color), #f7f7f7); */
     padding: 100px 0;
+}
+
+.title-pelayanan {
+    font-family: var(--font-slackey);
 }
 
 h2 {
@@ -217,7 +222,7 @@ h2 {
 }
 
 .input-cari {
-    height: 88px;
+    height: 58px;
 }
 
 .input-cari:focus {
@@ -232,4 +237,17 @@ h2 {
     font-size: 18px;
     font-weight: 500;
     border: none;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #6C757D;
+}
+
+.nav-custom {
+    background-color: #fff;
+    color: #000;
+}
+
+.testimoni-card {
+    background-color: rgba(57, 151, 203, 1);
 }
